@@ -1,12 +1,8 @@
 # Plonkish
 
-Research focused repository on plonkish arithmetization.
+A research focused repository on Plonkish arithmetization, forked and extended from [this work](https://github.com/han0110/plonkish) with some bug fixes to support the backend of ZKP-SPARQL.
 
-## Benchmark
-
-### Proof systems
-
-On different proof systems with KZG polynomial commitment scheme.
+## Basic usage
 
 ```sh
 Usage: cargo bench --bench proof_system -- [OPTIONS]
@@ -42,5 +38,5 @@ Note that `plotter` requires `gnuplot` installed already.
 ## Acknowledgements
 
 - Types for plonkish circuit structure are ported from https://github.com/zcash/halo2.
-- Most part of [HyperPlonk](https://eprint.iacr.org/2022/1355.pdf) and multilinear KZG PCS implementation are ported from https://github.com/EspressoSystems/hyperplonk with reorganization and extension to support `halo2` constraint system.
+- Most part of [HyperPlonk](https://eprint.iacr.org/2022/1355.pdf) and relevant implementation are ported from https://github.com/EspressoSystems/hyperplonk with reorganization and extension to support `halo2` constraint system.
 - Most part of [Brakedown](https://eprint.iacr.org/2021/1043.pdf) specification and multilinear PCS implementation are ported from https://github.com/conroi/lcpc.
